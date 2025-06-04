@@ -43,6 +43,7 @@ body {
 }
 
 .content-details {
+  margin-bottom: 5%;
   max-width: 860px;
   margin-left: auto;
   margin-right: auto;
@@ -270,5 +271,9 @@ main {
 
 /* use part  */
 #use{
+  margin-top: 10%;
+}
+/* partner part  */
+#partner{
   margin-top: 10%;
 }
