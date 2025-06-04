@@ -21,6 +21,10 @@ body {
   font-size: 18px;
 }
 
+#btn-text {
+  font-size: 18px;
+}
+
 .container {
   border: 1px solid #404040;
   margin-left: auto;
@@ -153,7 +157,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0 16px;
-  
 }
 
 #logo {
@@ -194,6 +197,33 @@ main {
   backdrop-filter: blur(5px);
   box-shadow: 0px 4px 50px 0px #000000b2;
   margin-bottom: 4px;
+}
+
+#hero-content > p {
+  font-size: 26px;
+}
+
+#Vector-16 {
+  position: absolute;
+  height: 400px;
+  left: 15%;
+  z-index: 1;
+}
+
+#xp-45 {
+  position: absolute;
+  rotate: 45deg;
+  height: 210px;
+  right: 12%;
+  top: 10%;
+  z-index: 1;
+}
+
+#Vector-17 {
+  position: absolute;
+  height: 500px;
+  right: 15%;
+  z-index: 1;
 }
 
 #hero > div > h1 {
@@ -239,11 +269,11 @@ main {
   align-items: center;
   border: 1px solid #404040;
   padding: 4px 5px 4px 20px;
-  gap: 10px; 
+  gap: 10px;
   margin-top: 4px;
   margin-bottom: 16px;
   border-radius: 10px;
-  background: transparent; 
+  background: transparent;
 }
 
 #notify input {
@@ -252,13 +282,13 @@ main {
   border: none;
   outline: none;
   color: #fff;
-  font-size: 16px;
-  box-shadow: 0px 4px 67px 0px #000000E0;
+  font-size: 18px;
+  box-shadow: 0px 4px 67px 0px #000000e0;
 }
 
 #notify input::placeholder {
   color: #ffffff;
-  opacity: 1; 
+  opacity: 1;
 }
 
 #gray-part {
@@ -282,6 +312,7 @@ main {
 
 #feature-card {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   padding: 0 20px;
 }
@@ -430,4 +461,105 @@ footer {
   align-items: center;
   gap: 24px;
   flex-wrap: nowrap;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 0px 8px;
+  }
+  #feature-card {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  #gray-part {
+    width: 100%;
+  }
+
+  .card-type-1 {
+    min-width: fit-content;
+  }
+
+  #last-line-flex {
+    flex-direction: column;
+    justify-content: center;
+  }
+  footer {
+    flex-direction: column;
+    gap: 16px;
+  }
+  footer p {
+    text-align: center;
+  }
+  #site-info {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  #links {
+    flex-direction: column;
+    gap: 8px;
+  }
+  #hero > div > h1 {
+    width: fit-content;
+    font-size: 36px;
+  }
+
+  #Vector-16 {
+    height: 200px;
+    left: 0%;
+    top: 50%;
+  }
+  #Vector-17 {
+    height: 250px;
+    right: 0%;
+    top: 50%;
+  }
+
+  #xp-45 {
+    height: 150px;
+    top: 8%;
+  }
+
+  nav {
+    padding: 0 0;
+  }
+
+  .primary-btn {
+    font-weight: 500;
+    font-size: 16px;
+    /* padding: 8px 2px; */
+  }
+
+  #hero-content > p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #notify {
+    gap: 0;
+  }
+
+  #notify input {
+    font-size: 12px;
+  }
+  #btn-text {
+    font-size: 12px;
+  }
+  .primary-btn > p {
+    font-size: 12px;
+  }
+  #last-line-flex{
+    align-items: center;
+  }
+
+  #last-part h1{
+    font-size: 36px;
+    margin-left: 0;
+  }
+
+  .card-type-2-details{
+    flex-direction: column;
+    align-items: center;
+  }
 }
