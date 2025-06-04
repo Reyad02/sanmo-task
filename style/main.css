@@ -152,6 +152,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 16px;
+  
 }
 
 #logo {
@@ -237,10 +239,26 @@ main {
   align-items: center;
   border: 1px solid #404040;
   padding: 4px 5px 4px 20px;
-  gap: 220px;
+  gap: 10px; 
   margin-top: 4px;
   margin-bottom: 16px;
   border-radius: 10px;
+  background: transparent; 
+}
+
+#notify input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+  box-shadow: 0px 4px 67px 0px #000000E0;
+}
+
+#notify input::placeholder {
+  color: #ffffff;
+  opacity: 1; 
 }
 
 #gray-part {
@@ -353,10 +371,10 @@ main {
 
 /* last part  */
 #last-part {
-  margin-top: 2%;
+  margin-top: 5%;
   font-size: 28px;
   max-width: fit-content;
-    margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
 }
 #last-line-flex {
@@ -368,11 +386,11 @@ main {
   gap: 16px;
 }
 
-#last-line-flex span{
+#last-line-flex span {
   font-size: 18px;
 }
 
-#last-part  h1 {
+#last-part h1 {
   margin-left: auto;
   text-align: center;
   font-weight: 600;
@@ -386,4 +404,30 @@ main {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* footer part  */
+footer {
+  margin-top: 10%;
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding-bottom: 12px;
+}
+
+#links {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: nowrap;
+}
+
+#site-info {
+  display: flex;
+  justify-items: right;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: nowrap;
 }
