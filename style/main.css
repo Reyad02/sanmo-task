@@ -52,6 +52,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
 }
 
 .section-title {
@@ -96,10 +98,15 @@ body {
   font-weight: 400;
   font-size: 20px;
   margin-bottom: 8px;
+  font-family: "DM Sans", sans-serif;
 }
 .card-subTitle {
   font-weight: 700;
   font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+}
+.card-details p {
+  font-family: "DM Sans", sans-serif;
 }
 
 .container2 {
@@ -201,6 +208,7 @@ main {
 
 #hero-content > p {
   font-size: 26px;
+  font-family: "DM Sans", sans-serif;
 }
 
 #Vector-16 {
@@ -284,6 +292,7 @@ main {
   color: #fff;
   font-size: 18px;
   box-shadow: 0px 4px 67px 0px #000000e0;
+  font-family: "DM Sans", sans-serif;
 }
 
 #notify input::placeholder {
@@ -358,20 +367,22 @@ main {
 }
 
 .faq-question {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
+  font-family: "DM Sans", sans-serif;
 }
 
 .faq-answer {
-  margin-top: 10px;
+  margin-top: 18px;
   font-size: 14px;
   color: #ccc;
   display: none;
   text-align: left;
+  font-family: "DM Sans", sans-serif;
 }
 
 .faq-item.active .faq-answer {
@@ -549,16 +560,16 @@ footer {
   .primary-btn > p {
     font-size: 12px;
   }
-  #last-line-flex{
+  #last-line-flex {
     align-items: center;
   }
 
-  #last-part h1{
+  #last-part h1 {
     font-size: 36px;
     margin-left: 0;
   }
 
-  .card-type-2-details{
+  .card-type-2-details {
     flex-direction: column;
     align-items: center;
   }
