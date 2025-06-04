@@ -97,8 +97,17 @@ body {
   font-size: 14px;
 }
 
+.container2 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1300px;
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  padding-top: 16px;
+  padding-bottom: 40px;
+}
+
 .card-image {
-  /* width: 160px;  */
   height: 160px;
   display: flex;
   align-items: center;
@@ -126,7 +135,6 @@ body {
 
 
 .card-image-1 {
-  /* width: 160px;  */
   height: 210px;
   display: flex;
   align-items: center;
@@ -256,7 +264,11 @@ main {
 
 #feature-card {
   display: flex;
-  /* gap: 40px; */
   justify-content: space-between;
   padding: 0 20px;
+}
+
+/* use part  */
+#use{
+  margin-top: 10%;
 }
