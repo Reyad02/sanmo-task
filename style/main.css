@@ -240,6 +240,7 @@ main {
   gap: 220px;
   margin-top: 4px;
   margin-bottom: 16px;
+  border-radius: 10px;
 }
 
 #gray-part {
@@ -348,4 +349,41 @@ main {
   max-width: 1300px;
   border-radius: 10px;
   padding-top: 16px;
+}
+
+/* last part  */
+#last-part {
+  margin-top: 2%;
+  font-size: 28px;
+  max-width: fit-content;
+    margin-left: auto;
+  margin-right: auto;
+}
+#last-line-flex {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 16px;
+}
+
+#last-line-flex span{
+  font-size: 18px;
+}
+
+#last-part  h1 {
+  margin-left: auto;
+  text-align: center;
+  font-weight: 600;
+  background: -webkit-linear-gradient(
+    92.12deg,
+    #292929 -2.37%,
+    #ffffff 27.47%,
+    #676767 51.64%,
+    #ffffff 70.68%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
